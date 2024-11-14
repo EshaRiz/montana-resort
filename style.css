@@ -1,0 +1,800 @@
+/*
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-regular fa-envelope"></i>
+<i class="fa-brands fa-twitter"></i>
+
+
+
+*/
+/*header start*/
+#topbar{
+    height: 40px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+
+}
+#navbar{
+    height: 600px;
+    background-image: url(p1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar a li{
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-size: 18px;
+}
+#navbar a li:hover{
+    color: rgb(0, 195, 255);
+}
+#logo_img{
+    height: 150px;
+    width: 150px;
+    margin-top: -20px;
+    background-image: url(Main\ Logo_processed.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#icon_section a i{
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-left: 15px;
+    line-height: 100px;
+}
+#icon_section a i:hover{
+    color: rgb(0, 195, 255);
+}
+#book_now{
+    background-color:rgb(0, 195, 255);
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+#book_now:hover{
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+}
+/*header end*/
+
+/*about us section start*/
+#about_txt h4{
+    color: rgb(0, 195, 255) ;
+    text-decoration: underline;
+
+}
+#about_txt h2{
+    font-size: 40px;
+    color: rgb(88, 88, 88);
+}
+#about_txt p{
+    font-size: 17px;
+    color: darkgrey;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+#about_txt a h5{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: underline;
+    font-style: normal;
+    color: rgb(78, 78, 78);
+    padding-bottom: 5px;
+    
+}
+#about_txt a h5:hover{
+    color:rgb(0, 195, 255) ;
+    text-decoration: underline;
+}
+
+#img1{
+    height: 400px;
+    width: 48%;
+    background-image: url(about1.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img2{
+    height: 400px;
+    width: 50%;
+    background-image: url(about_2.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*about us section end*/
+/*Offer section start*/
+#offer_details{
+    height: 600px;
+}
+
+
+
+#offers h4{
+    color: rgb(0, 195, 255);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#offers h2{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 50px;
+}
+#offer_card_1 {
+    height: 300px;
+    width: 350px;
+    background-image: url(offer1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#offer_card_2 {
+    height: 300px;
+    width: 350px;
+    background-image: url(offer2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#offer_card_3 {
+    height: 300px;
+    width: 350px;
+    background-image: url(offer3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+}
+#offer_txt{
+    height: 300px;
+    width: 300px;
+    margin-top: 280px;
+    
+}
+
+#offer_txt p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+}#offer_txt ul li{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 17px;
+}
+#offer_btn{
+    border: 1px solid rgb(0, 195, 255);
+    color: rgb(0, 195, 255);
+    background-color: white;
+    width: 330px;
+    height: 35px;
+    font-size: 15px;
+}
+#offer_btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 195, 255);
+}
+/*Offer section end*/
+/*VIDEO IMG*/
+#video{
+    background-image: url(p4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+#video_img p{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 250px;
+}
+#play_btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: 0px;
+    margin-left: 630px;
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+#play_btn:hover{
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+/*video img end*/
+
+/*Prices start*/
+#prices_heading h4{
+    color: rgb(0, 195, 255);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#prices_heading h2{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 50px;
+
+}
+ #image_1{
+    background-image: url(p1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+#image_2{
+    background-image: url(p2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+#image_1 #price_para p{
+    margin-top: 350px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+#image_2 #price_para p{
+    margin-top: 350px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+#image_3{
+    background-image: url(p4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+#image_4{
+    background-image: url(p3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+#image_3 #price_para p{
+    margin-top: 350px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+#image_4 #price_para p{
+    margin-top: 350px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+/*prices end*/
+/* Food section start*/
+
+#food_heading h4{
+    color: rgb(0, 195, 255);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#food_heading h2{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 50px;
+
+}
+
+
+#food_txt h4{
+    color: rgb(0, 195, 255) ;
+    text-decoration: underline;
+
+}
+#food_txt h2{
+    font-size: 40px;
+    color: rgb(88, 88, 88);
+}
+#food_txt p{
+    font-size: 17px;
+    color: darkgrey;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+#food_txt a h5{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: underline;
+    font-style: normal;
+    color: rgb(78, 78, 78);
+    padding-bottom: 5px;
+    
+}
+#food_txt a h5:hover{
+    color:rgb(0, 195, 255) ;
+    text-decoration: underline;
+}
+
+#food_img1{
+    height: 400px;
+    width: 48%;
+    background-image: url(food2.png);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#food_img2{
+    height: 400px;
+    width: 50%;
+    background-image: url(food1.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+/*Food section end*/
+/*query start*/
+#query_txt{
+    height: 150px;
+    border: 1px solid darkgray;
+}
+#query_txt span{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(26, 25, 25);
+    margin-left: 25px;
+}
+#query_btn{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(0, 195, 255);
+    border: 0px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+#query_btn:hover{
+    color: rgb(0, 195, 255);
+    background-color: white;
+    border: 1px solid rgb(0, 195, 255);
+}
+#gallery img{
+    margin-left: -10px;
+}
+/*query end*/
+
+
+
+
+/*footer css strat*/
+#footer{
+    height: 500px;
+    background-color: black;
+}
+#adress{
+    margin-top: 150px;
+}
+#adress h3{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+}
+#adress p{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+#adress p a{
+    color: white;
+    text-decoration: underline;
+}
+#adress p a:hover{
+    color: rgb(0, 195, 255);
+}
+#reservation{
+    margin-top: 150px;
+}
+#reservation h3{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+}
+#reservation p a{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+#reservation p a:hover{
+    color: rgb(0, 195, 255);
+}
+#news_letter{
+    margin-top: 150px;
+}
+#news_letter h3{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;   
+}
+#news_letter input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid darkgray;
+    background-color: white;
+    color: black;
+    font-family: "Raleway", sans-serif;
+}
+#news_letter button{
+    height: 31px ;
+    
+    width: 100px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    border: 0px;
+}
+#news_letter button:hover{
+    background-color: white;
+    color: rgb(0, 195, 255);
+}
+#footer_end {
+    height: 100px;
+    border-top: 1px solid darkgray;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+
+}
+#footer_end p {
+    line-height: 100px;
+    margin-left: 50px;
+    color: white;
+}
+#footer_end span{
+    color: rgb(0, 195, 255);
+    cursor: pointer;
+}
+
+#footer_icon i{
+    line-height: 100px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+}
+#footer_icon i:hover{
+    color: rgb(0, 195, 255);
+}
+
+/*footer css end*/
+
+/*About us page css start*/
+#navbar_about{
+    height: 600px;
+    background-image: url(p2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar_about h1{
+    line-height: 300px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+    margin-left: -50px;
+
+}
+
+#navbar_about ul{
+    list-style-type: none;
+}
+#navbar_about a li{
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-size: 18px;
+}
+#navbar_about a li:hover{
+    color: rgb(0, 195, 255);
+}
+#image_about{
+    background-image: url(p3.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+#about_text h3{
+    
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+}
+#about_text p{
+    font-size: 17px;
+    color: rgb(85, 85, 85);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+/*About us page css end*/
+
+/*room page css start*/
+#navbar_room{
+    height: 600px;
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar_room h1{
+    line-height: 300px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+    margin-left: -50px;
+
+}
+
+#navbar_room ul{
+    list-style-type: none;
+}
+#navbar_room a li{
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-size: 18px;
+}
+#navbar_room a li:hover{
+    color: rgb(255, 255, 255);
+}
+/*room page css end*/
+/* contact page css start*/
+#navbar_contact{
+    height: 600px;
+    background-image: url(bc2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar_contact h1{
+    line-height: 300px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+    margin-left: -50px;
+
+}
+
+#navbar_contact ul{
+    list-style-type: none;
+}
+#navbar_contact a li{
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    margin-left: 10px;
+    line-height: 100px;
+    font-size: 18px;
+}
+#navbar_contact a li:hover{
+    color: rgb(255, 255, 255);
+}
+#maps iframe{
+    width: 100%;
+}
+form input textarea{
+    border: 1px solid rgb(216, 216, 216);
+}
+#form_txt{
+    height: 200px;
+    width: 97%;
+}
+#input{
+    height: 50px;
+    width: 48%;
+}
+#input_full{
+    height: 50px;
+    width: 97%;
+}
+#form_btn{
+    height:50px ;
+    width: 250px;
+    color: white;
+    background-color: rgb(0, 195, 255);
+    border: 0px;
+    letter-spacing: 5px;
+}
+#form_btn:hover{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+    
+}
+#contact_form #right ul{
+    list-style-type: none;
+}
+#contact_form #right li i{
+    margin-top: 50px;
+    font-size: 30px;
+    color:rgb(104, 103, 103) ;
+}
+#contact_form #right li span{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+/*contact page css end*/
+
+/*blog page css start*/
+#blog_left{
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#blog_left a{
+    text-decoration: none;
+    color: black;
+    
+}
+#blog_left a:hover{
+    color: rgb(0, 195, 255);
+}
+#search_btn{
+    background-color: rgb(0, 195, 255);
+    height: 50px;
+    width: 150px;
+    letter-spacing: 2px;
+    color: white;
+}
+#search_btn:hover{
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+}
+#blog_right {
+    
+    margin-left: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-group{
+    padding-top: 30px;
+}
+.input-group input{
+   
+    width: 300px;
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+#blog_right li{
+    line-height: 35px;
+    cursor: pointer;
+}
+#blog_right li:hover{
+    color: rgb(0, 195, 255);
+    text-decoration: underline;
+
+}
+#blog_right  #tag_btn{
+    border-radius: 30px;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid lightgray;
+    margin-left: 5px;
+}
+#blog_right  #tag_btn:hover{
+    color: white;
+    background-color: rgb(0, 195, 255);
+    border: 0px;
+}
+#right_news{
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+}
+#right_news h3{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+#right_news #subs{
+    height: 50px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 40px;
+    border: 1px solid lightgray;
+
+}
+#right_news  button{
+    height: 50px;
+    width: 80%;
+    margin-left: 40px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    border: 0px;
+    letter-spacing: 2px;
+}
+#right_news  button:hover{
+    background-color: white;
+    color: rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+}
+/*blog page css end*/
